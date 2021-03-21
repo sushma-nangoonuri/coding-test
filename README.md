@@ -3,10 +3,10 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.3.
 
 Download the code from 
-https://github.com/sushma-nangoonuri/sushma-ct
+https://github.com/sushma-nangoonuri/coding-test
 
 Clone the project 
-`git clone https://github.com/sushma-nangoonuri/sushma-ct.git`
+`git clone https://github.com/sushma-nangoonuri/coding-test.git`
 
 Make sure you have  the latest angular cli installed
 `npm install -g @angular/cli`
