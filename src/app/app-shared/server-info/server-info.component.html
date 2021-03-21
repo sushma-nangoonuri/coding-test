@@ -1,0 +1,39 @@
+<div class="modal-header">
+    <h4 class="modal-title">Server Details</h4>
+    <button type="button" class="close" aria-label="Close" (click)="activeModal.dismiss('no')">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+<div class="modal-body" *ngIf="selectedServer">
+    <div class="row">
+      <div class="col">
+        <header>Server</header>
+        <p>{{selectedServer.server_name}}</p>
+      </div>
+      <div class="col">
+          <header>Domain</header>
+          <p>{{selectedServer.domain}}</p>
+        </div>
+        <div class="col">
+            <header>File</header>
+            <p>{{selectedServer.file_name}}</p>
+          </div>
+          <div class="col">
+              <header>IP</header>
+              <p>{{selectedServer.ip_address}}</p>
+            </div>
+            <div class="col">
+                <header>User</header>
+                <p>{{selectedServer.username}}</p>
+              </div>
+    </div>
+    <div class="row">
+        <div class="col">
+                <header>url</header>
+                <p><a [href]="selectedServer.url"> Official Website</a></p>
+        </div>
+    </div>
+</div>
+<div class="modal-footer">
+    <button type="button" class="btn btn-secondary" (click)="activeModal.close('no')">Ok</button>
+</div>

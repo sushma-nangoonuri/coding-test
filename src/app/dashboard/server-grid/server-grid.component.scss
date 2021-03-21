@@ -1,0 +1,25 @@
+@import "../../../styles-variables.scss";
+
+.server-rack {
+    width:10%;
+    min-height:60px;
+    border: white 1px solid;
+    padding:1em;
+    line-height:1em;
+    margin:1%;
+    background: #ffffff52;;
+    @include for-phone-only {    
+        width:40%;
+     }
+     @include for-tablet-landscape-up {
+         width: 25%;
+     }
+}
+.server-container {
+    display: flex; 
+    flex-direction: row;
+    width:90%;
+    margin:0 auto !important;
+    flex-wrap: wrap;
+    justify-content: center;
+}

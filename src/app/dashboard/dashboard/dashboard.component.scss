@@ -1,0 +1,42 @@
+.apps-container {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    align-content: flex-end; 
+    padding:5px;
+    justify-content: center;
+    background: transparent;
+}
+.apps-container > div {
+    width: fit-content;
+    text-align: center;
+    //line-height: 75px;
+    padding:1em;
+    font-size: medium;
+  }
+  .apps-container > div > i {
+    background-color:transparent;
+    margin: 10px;
+    text-align: center;
+    font-size: 8em;
+    // color: rgb(26, 85, 196);
+    margin: 0 auto !important;
+  }
+
+  .image-container {
+    border: rgb(238, 236, 236) 2px solid;
+    // color: rgb(26, 85, 196);
+    box-shadow: 2px 3px 3px 2px white;
+    width: fit-content;
+    padding: 2em;
+    text-align: center;
+    vertical-align: middle;
+    margin:1%;
+        
+  }
+  .header-label {
+    text-align: center;color: white;
+    width:100%;
+    font-family: fell, Georgia, Cambria, "Times New Roman", Times, serif;
+    line-height: 1.618;
+}

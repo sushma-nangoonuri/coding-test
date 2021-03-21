@@ -1,0 +1,13 @@
+<div class="container">
+  <h1 class="header-label">Welcome to our Portal</h1>
+  <div class="apps-container" *ngIf="appItems && appItems.length > 0">
+    <div *ngFor="let appItem of appItems">
+        <app-item [iconClass]="appItem.iconClass"
+        [routeType]="appItem.routeType"
+        [viewDest]="appItem.viewDest"
+        [appColor]="appItem.appColor"
+        [webUrl]="appItem.webUrl"></app-item>
+    </div>
+  </div>
+  </div>
+  

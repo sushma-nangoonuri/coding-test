@@ -1,0 +1,4 @@
+<div *ngIf="serverInfo" style="text-align: center" (click)="onServerSelect($event)">
+    <i class="bi bi-server server-icon" [style.color]="iconColor || 'black'"></i>
+    <p class="server-label">{{serverInfo.server_name}}</p>
+</div>

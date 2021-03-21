@@ -1,0 +1,17 @@
+@import "../../../styles-variables.scss";
+.server-label {
+    text-align: center;
+    margin: 1em 0;
+    font-size: small;
+    font-weight: 600;
+    color: white;
+    @include for-phone-only {    
+        font-size: smaller;
+     }
+}
+.server-icon {
+    font-size: 5em;
+    @include for-phone-only {    
+        font-size: 4em;
+     }
+}

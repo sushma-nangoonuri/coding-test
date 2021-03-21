@@ -1,0 +1,66 @@
+[ {
+    "header":"Grid",
+    "value": "grid",
+    "iconClass": "bi bi-grid-3x3-gap",
+    "appColor": "#DAF7A6",
+    "routeType": "internal",
+    "viewDest": "grid",
+    "webUrl": "/chart'"
+  },
+  {
+    "header":"Charts",
+    "value": "charts",
+    "iconClass": "bi-graph-up",
+    "appColor": "#27AE60",
+    "routeType": "internal",
+    "viewDest": "chart",
+    "webUrl": "/chart"
+  },
+  {
+    "header":"Github",
+    "value": "github",
+    "iconClass": "bi-github",
+    "appColor": "#333",
+    "routeType": "external",
+    "webUrl": "https://github.com/login"
+  },
+  {
+    "header":"Linkedin",
+    "value": "linkenIn",
+    "iconClass": "bi-linkedin",
+    "appColor": "#0d83da",
+    "routeType": "external",
+    "webUrl": "https://www.linkedin.com/login"
+  },
+  {
+    "header":"Slack",
+    "value": "slack",
+    "iconClass": "bi-slack",
+    "appColor": "#ECB22E",
+    "routeType": "external",
+    "webUrl": "https://slack.com/workspace-signin"
+  },
+  {
+    "header":"Twitter",
+    "value": "twitter",
+    "iconClass": "bi-twitter",
+    "appColor": "#00acee",
+    "routeType": "external",
+    "webUrl": "https://twitter.com/login?lang=en-gb"
+  },
+  {
+    "header":"Facebook",
+    "value": "facebook",
+    "iconClass": "bi-facebook",
+    "appColor": "#0d83da",
+    "routeType": "external",
+    "webUrl": "https://twitter.com/login?lang=en-gb"
+  },
+  {
+    "header":"Instagram",
+    "value": "instagram",
+    "iconClass": "bi-instagram",
+    "appColor": "#8134AF",
+    "routeType": "external",
+    "webUrl": "https://www.facebook.com/"
+  }]

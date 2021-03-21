@@ -1,0 +1,7 @@
+<h1 style="width:100%; text-align: center;color:white">Grid Component</h1>
+<div class="server-container" *ngIf="serverlist && serverlist.length > 0">
+  <div *ngFor="let serverItem of serverlist" class="server-rack" >
+      <app-server-item [serverInfo]="serverItem"></app-server-item>
+  </div>
+</div>
+

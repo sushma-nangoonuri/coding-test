@@ -1,0 +1,11 @@
+@import "../../../styles-variables.scss";
+.chart-container {
+    position: relative;
+    margin: 10px 0;
+    height: 40vh;
+    width: 30vw;
+    @include for-phone-only {    
+        width: 90vw;
+        height: 50vh;
+     }
+  }
